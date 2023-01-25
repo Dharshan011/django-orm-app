@@ -13,14 +13,14 @@ To develop a Django application to store and retrieve data from a database using
 Create a new Django project using "django-admin startproject",get into the project terminal and use "python3 manage.py startapp" command.
 
 ### STEP 2:
-Define a model for the golf club membership in the models.py.Allow host access and add the app name under installed apps in settings.py
+Define a model for the employee membership in the models.py.Allow host access and add the app name under installed apps in settings.py
 
 
 ### STEP 3:
 Register the models with the Django admin site. In admin.py under app folder,register the models with Django admin site.
 
 ### STEP 4:
-Run the python manage.py makemigrations and python manage.py migrate commands to create the necessary database tables for the golf club membership model.Run the Server using "python3 manage.py runserver 0:80" command.
+Run the python manage.py makemigrations and python manage.py migrate commands to create the necessary database tables for the employee membership model.Run the Server using "python3 manage.py runserver 0:80" command.
 
 ## PROGRAM
 ```
